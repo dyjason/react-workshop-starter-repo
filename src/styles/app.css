@@ -1,5 +1,29 @@
-/* Base Application Styles */
+.search-bar {
+  margin: 20px;
+  text-align: center;
+}
+.search-bar input {
+  width: 75%;
+}
+.video-item img {
+  max-width: 64px;
+}
+.video-detail .details {
+  margin-top: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+.list-group-item {
+  cursor: pointer;
+}
+.list-group-item:hover {
+  background-color: #eee;
+}
 
+
+/* Base Application Styles */
+/*
 .app {
   color: #666;
   max-width: 500px;
@@ -15,4 +39,4 @@
 
 .todo-item.done {
   text-decoration: line-through;
-}
+}*/
